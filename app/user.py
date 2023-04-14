@@ -39,7 +39,7 @@ def update_message_token_usage(user_id, message_id, message_type, llm_token_usag
         return False
     
 def get_user(user_id):
-    endpoint_url = f"https://api.myreader.io/api/user/slack/{user_id}"
+    endpoint_url = f"https://slack.chat2any.com/api/user/slack/{user_id}"
     headers = {
         'CF-Access-Client-Id': CF_ACCESS_CLIENT_ID,
         'CF-Access-Client-Secret': CF_ACCESS_CLIENT_SECRET,
